@@ -217,9 +217,9 @@ def operacoes():
 
 # 2.0. Definições principais da janela
 janela = tk.Tk()
-janela.geometry('580x350')
+janela.geometry('670x400')
 janela.wm_title('r[CCALC]X v0.1')
-#janela.tk_setPalette('gray')
+#janela.tk_setPalette('white')
 
 
 # 2.0. Barra de menu
@@ -236,13 +236,13 @@ titulo = tk.Label(janela, text="r[Calculadora Complexa]X", font="Arial 16 bold",
 titulo.grid(column = 0, row = 0, sticky="NSEW")
 
 # 2.1 Definições do notebook e ABAS
-notebook = ttk.Notebook(janela, height=260, width=575)
+notebook = ttk.Notebook(janela, height=270, width=610)
 frame1 = ttk.Frame(notebook)
-notebook.add(frame1, text = 'Retangular -> Polar', sticky = 'S')
+notebook.add(frame1, text = 'Retangular -> Polar', sticky = 'NS')
 frame2 = ttk.Frame(notebook)
-notebook.add(frame2, text = 'Polar -> Retangular', sticky = 'S')
+notebook.add(frame2, text = 'Polar -> Retangular', sticky = 'NS')
 frame3 = ttk.Frame(notebook)
-notebook.add(frame3, text = 'Operações', sticky = 'S')
+notebook.add(frame3, text = 'Operações', sticky = 'NS')
 notebook.grid(column = 0, row = 1)
 
 

@@ -11,11 +11,14 @@ Features:
 - Brazillian Portuguese (pt_BR) interface 
 
 Binaries:
-- Binaries are provided for Windows 10 - 64bits 
+- Windows 10 - 64bits 
+- MacOS Mojave
 
 Screenshot
 ----------
+![Main Screen - MacOS](images/2png)
 ![Main Screen - Windows](images/1.png)
+
 
 
 
