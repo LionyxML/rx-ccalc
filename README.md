@@ -16,7 +16,8 @@ Binaries:
 
 Screenshot
 ----------
-![Main Screen - MacOS](images/2png)
+![Main Screen - MacOS](images/2.png)
+
 ![Main Screen - Windows](images/1.png)
 
 
