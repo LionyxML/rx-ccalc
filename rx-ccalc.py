@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# Arquivo : rccalcX.py
+# Arquivo : rx-ccalc.py
 # Programa: Calculadora de operações básicas em números
 #           complexos para X
 # Autor   : Rahul Martim Juliato
 # Versão  : 0.1  -  10.04.2018
-
+# Versão  : 0.2  -  29.12.2019 - Renomeado para rx-ccalc.py (anterior r[CCALC]x)
 
 
 #---===[0. Bibliotecas]===---
@@ -28,12 +28,12 @@ def quit():
 def sobre():
     """ Mostra as informações do programa
     """
-    mb.showinfo("r[CCALC]X",'''
+    mb.showinfo("rx-ccalc",'''
 
-r[CCALC]X
+rx-ccalc
 Calculadora de Números Complexos
 
-Versão: 0.1
+Versão: 0.2
 
 Autor: Rahul Martim Juliato
 (rahul.juliato@gmail.com)
@@ -218,7 +218,7 @@ def operacoes():
 # 2.0. Definições principais da janela
 janela = tk.Tk()
 janela.geometry('670x400')
-janela.wm_title('r[CCALC]X v0.1')
+janela.wm_title('rx-ccalc v0.2')
 #janela.tk_setPalette('white')
 
 

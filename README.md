@@ -1,5 +1,5 @@
-rCCALC[X] - Complex Calculator
-------------------------------
+rx-ccalc  -  Complex Calculator
+-------------------------------
 
 This is a python3/tk written calculator software to make operations with complex numbers.
 
